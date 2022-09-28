@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <title>Berdnikova_lab2</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nabla&family=Open+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Poppins&display=swap" rel="stylesheet">
+    <style >
+        body { 
+            background: url(background.jpg); 
+            background-position: top;
+        }
+        
+      </style>
+</head>
+<body>
+
+
+    <header>
+        
+    </header>
+
+
+    <main>
+        <form method = "post" action = "https://httpbin.org/post">
+            <p class><b>Ваше имя:</b><br></p>
+            <p><input type ="text" size="40"></p>
+            <br>
+
+            <p><b>Ваша почта:</b><br></p>
+            <p><input type ="text" size="40"></p>  
+            <br>
+
+            <p><b>Откуда вы о нас узнали?</b><br>
+                <input type = "radio" name = "choice" value = "Internet"> Реклама в интернете<br>                
+                <input type = "radio" name = "choice" value = "Internet"> Реклама на радио<br>                
+                <input type = "radio" name = "choice" value = "Internet"> Через знакомых
+            </p>
+            <br> 
+
+            <p><b>Тип обращения: </b><br>
+            <center><select size = "1" style = "width: 200px;">
+                <option disabled class = "selector">Тип обращения</option>
+                <option  class = "selector" value = "1">Жалоба</option>
+                <option class = "selector" value = "2">Предложение</option>
+            </select>
+            </center></p>
+            <br>
+
+            <p><b>Текст сообщения: </b><br></p>
+            <p><textarea rows = "10" cols = 45></textarea></p>
+            <br>  
+
+            <p><b>Вложение:</b><br></p>
+            <p><input type = "file" name = "f"></p>    
+            <br> 
+
+            <center>
+            <p><b><legend> Согласие на обработку персональных данных</legend></b>
+            <input type="checkbox">Я даю согласие<br></p>
+            </center>
+            <br>
+
+            <p><input type = "submit" value = "Отправить"></p>
+
+
+        </form>
+
+     
+        
+    </main>
+
+
+    <footer>
+
+    </footer>
+
+
+  </body>
+</body>
+</html>
